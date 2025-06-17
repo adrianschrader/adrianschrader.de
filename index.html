@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coming Soon</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body,
+    html {
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f7f7;
+    }
+
+    .background {
+      background: url('assets/pines.webp') no-repeat;
+      background-position: center bottom;
+      background-size: 100% auto;
+      height: 100%;
+      width: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      color: white;
+      padding-bottom: 3rem;
+    }
+
+    .content h1 {
+      color: #4B636D;
+      font-size: 4rem;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 0;
+      z-index: 1;
+      padding: 10px 20px;
+      font-size: 0.8rem;
+      color: #2E3F4B;
+      text-align: center;
+      width: 100%;
+    }
+
+    .footer a {
+      color: #2E3F4B;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .content h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="background">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Coming soon.</h1>
+    </div>
+    <div class="footer">
+      Hintergrund von supacahi kuaiyue über <a
+        href="https://www.vecteezy.com/vector-art/8277941-vector-illustration-pine-landscape-mountain-nature-forest-background-pine-tree-vector">
+        vecteezy.com
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>
